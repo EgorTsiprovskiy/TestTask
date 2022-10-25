@@ -1,0 +1,16 @@
+﻿@using Syncfusion.Blazor.Navigations
+
+
+@code {
+    public List<MenuItem> MenuItems = new List<MenuItem>
+    {
+            new MenuItem{Text = "Education", Url="https://blazor.syncfusion.com/documentation/menu-bar/getting-started"},
+            new MenuItem{Text = "News", Url="https://www.dotnetconf.net/?WT.mc_id=dotnetconf-72601-jufriedm"}
+        };
+
+    public class MenuItem
+    {
+        public string Text { get; set; }
+        public string Url { get; set; }
+    }
+}

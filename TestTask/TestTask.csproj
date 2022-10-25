@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Blazor.Core" Version="20.3.0.50" />
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="20.3.0.50" />
+  </ItemGroup>
+
 </Project>
